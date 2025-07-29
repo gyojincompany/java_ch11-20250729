@@ -12,7 +12,7 @@ public class DateTest {
 		System.out.println(nowTime.toString());
 		
 		SimpleDateFormat dateformat1 = new SimpleDateFormat("yyyy년 MM월 dd일");
-		SimpleDateFormat dateformat2 = new SimpleDateFormat("yyyy년 MM월 dd일 hh시 mm분 ss초");
+		SimpleDateFormat dateformat2 = new SimpleDateFormat("yyyy년 MM월 dd일 E요일 hh시 mm분 ss초");
 		String date2 = dateformat1.format(nowTime);
 		System.out.println(date2);
 		String date3 = dateformat2.format(nowTime);
